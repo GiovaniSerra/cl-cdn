@@ -30,7 +30,7 @@ largura = 14
 altura = 20
 volume = (comprimento * largura * altura)
 
-print(volume, "cm 3")
+print("O volume é de ", volume, "cm³")
 
 #4- Calculadora de Preço Total
 #* Desenvolva um programa que calcula o preço total de uma compra. Use as seguintes informações:
@@ -44,4 +44,7 @@ produto = 12.40
 quantidade = 3
 compra = (produto * quantidade)
 
-print("O resultado da compra é de: R$", compra)
+print(
+    "O resultado da compra é de: R$", compra,
+    " | Preço unitário: R$", produto,
+    " | Quantidade adquirida:", quantidade)
