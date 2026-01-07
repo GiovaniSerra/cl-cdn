@@ -1,6 +1,6 @@
 # Aula 01
 
-# Criando minha primeira variavel
+# Criando variavel
 fruta_citrica = "maracuja"
 
 # imprimindo minha variavel
